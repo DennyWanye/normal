@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
     res.send('welcome to xiaomu admin system.')
 })
 
-
+//test
 app.use('/', router)
 
 const server = app.listen(5000, function() {
