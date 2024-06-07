@@ -8,7 +8,6 @@ router.get('/', function(req, res, next) {
     res.send('welcome to xiaomu admin system.')
 })
 
-//testtesttest
 
 app.use('/', router)
 
